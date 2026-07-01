@@ -2,6 +2,10 @@
 
 Product Design plugin and LazyCodex frontend workflow landing site.
 
+## Live
+
+https://codex-product-design-site.vercel.app
+
 ## Scripts
 
 ```sh
