@@ -38,7 +38,7 @@ A bright product-command surface for turning vague ideas into reviewable prototy
 
 | Level | Size | Weight | Line Height | Tracking | Usage |
 |-------|------|--------|-------------|----------|-------|
-| Display | clamp(3.4rem, 8vw, 8rem) | 650 | 0.9 | -0.04em | Hero headline |
+| Display | clamp(4.1rem, 6vw, 5.7rem) | 650 | 0.94 | 0 | Hero headline |
 | H1 | clamp(2.4rem, 5vw, 5.2rem) | 620 | 0.96 | -0.035em | Major section titles |
 | H2 | clamp(1.9rem, 3vw, 3rem) | 620 | 1.06 | -0.025em | Subsection titles |
 | H3 | 1.25rem | 620 | 1.2 | -0.01em | Card titles |
@@ -54,6 +54,7 @@ A bright product-command surface for turning vague ideas into reviewable prototy
 
 ### Rules
 
+- Hero display copy uses explicit three-line phrasing: action, object, output.
 - Display type is used for the claim and section headlines only.
 - Body copy remains readable and product-focused.
 - Letter spacing stays zero except declared display/caption usage.
