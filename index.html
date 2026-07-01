@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Codex Product Design Studio turns product ideas, URLs, and screenshots into reviewable prototypes with design QA and deployment-ready handoff."
+    />
+    <meta property="og:title" content="Codex Product Design Studio" />
+    <meta
+      property="og:description"
+      content="A premium product design workflow site for ideation, prototyping, URL-to-code, UX audit, and design QA."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Codex Product Design Studio</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-nav" data-reveal>
+        <nav class="nav-shell" aria-label="Primary navigation">
+          <a class="brand" href="#top" aria-label="Codex Product Design Studio home">
+            <span class="brand-mark" aria-hidden="true">PD</span>
+            <span>Product Design</span>
+          </a>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav-links" id="nav-links">
+            <a href="#workflow">Workflow</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#quality">Quality</a>
+            <a class="nav-cta" href="#deploy">Deploy</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-band">
+          <div class="ambient ambient-one"></div>
+          <div class="ambient ambient-two"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy" data-reveal>
+              <span class="eyebrow">Codex role-specific plugin</span>
+              <h1>Ideas become products your team can review.</h1>
+              <p>
+                A design operating layer for Codex: research friction, ideate directions, clone
+                live URLs, make screenshots interactive, QA the result, then ship a shareable
+                prototype.
+              </p>
+              <div class="hero-actions">
+                <a class="magnetic-cta magnetic-cta-dark" href="#prototype">
+                  <span>Explore the prototype flow</span>
+                  <span class="cta-orb" aria-hidden="true">↗</span>
+                </a>
+                <a class="magnetic-cta magnetic-cta-light" href="#workflow">
+                  <span>View workflows</span>
+                  <span class="cta-orb" aria-hidden="true">→</span>
+                </a>
+              </div>
+              <div class="trust-row" aria-label="Installed capabilities">
+                <span>Prototype</span>
+                <span>URL to code</span>
+                <span>UX audit</span>
+                <span>Design QA</span>
+              </div>
+            </div>
+
+            <div class="product-frame hero-frame" data-reveal>
+              <div class="frame-chrome">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>codex.product.design</p>
+              </div>
+              <div class="frame-body">
+                <aside class="frame-rail" aria-label="Workflow rail">
+                  <button class="rail-item active" data-panel="brief">Brief</button>
+                  <button class="rail-item" data-panel="ideate">Ideate</button>
+                  <button class="rail-item" data-panel="qa">QA</button>
+                </aside>
+                <section class="frame-stage" aria-live="polite">
+                  <div class="stage-header">
+                    <span class="status-dot"></span>
+                    <span id="stage-kicker">brief confirmed</span>
+                  </div>
+                  <h2 id="stage-title">Three visual directions before code.</h2>
+                  <p id="stage-copy">
+                    Confirm the product context, choose a visual target, then build a runnable
+                    prototype from that evidence.
+                  </p>
+                  <div class="direction-grid">
+                    <article>
+                      <span></span>
+                      <strong>Studio glass</strong>
+                      <small>bright command center</small>
+                    </article>
+                    <article>
+                      <span></span>
+                      <strong>URL clone</strong>
+                      <small>source-grounded app frame</small>
+                    </article>
+                    <article>
+                      <span></span>
+                      <strong>Flow audit</strong>
+                      <small>screenshot-backed findings</small>
+                    </article>
+                  </div>
+                </section>
+                <aside class="inspector-panel">
+                  <p>handoff</p>
+                  <strong>Ready for review</strong>
+                  <div class="mini-bars" aria-hidden="true">
+                    <span style="--w: 84%"></span>
+                    <span style="--w: 64%"></span>
+                    <span style="--w: 92%"></span>
+                  </div>
+                  <small>Figma, local preview, or Vercel share target</small>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="evidence-strip" data-reveal>
+          <div class="container evidence-grid">
+            <div>
+              <strong>0.1.41</strong>
+              <span>Product Design plugin installed</span>
+            </div>
+            <div>
+              <strong>4.15.0</strong>
+              <span>LazyCodex frontend skill active</span>
+            </div>
+            <div>
+              <strong>8</strong>
+              <span>Focused design workflows</span>
+            </div>
+            <div>
+              <strong>100</strong>
+              <span>Lighthouse-quality target</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-band" id="workflow">
+          <div class="container section-heading" data-reveal>
+            <span class="eyebrow">Workflow map</span>
+            <h2>One plugin, four ways to turn ambiguity into something visible.</h2>
+          </div>
+          <div class="container workflow-grid">
+            <article class="double-card large-card" data-reveal>
+              <div class="card-core">
+                <span class="card-number">01</span>
+                <h3>Prototype from a brief</h3>
+                <p>
+                  Clarify context, generate visual directions, choose one, then produce a local
+                  interactive prototype rather than a flat document.
+                </p>
+              </div>
+            </article>
+            <article class="double-card" data-reveal>
+              <div class="card-core">
+                <span class="card-number">02</span>
+                <h3>Clone a live URL</h3>
+                <p>Capture runtime truth from a real product surface and rebuild it as editable code.</p>
+              </div>
+            </article>
+            <article class="double-card accent-card" data-reveal>
+              <div class="card-core">
+                <span class="card-number">03</span>
+                <h3>Audit a flow</h3>
+                <p>Screenshot-backed UX, accessibility, and visual findings tied to exact steps.</p>
+              </div>
+            </article>
+            <article class="double-card dark-card" data-reveal>
+              <div class="card-core">
+                <span class="card-number">04</span>
+                <h3>Share the result</h3>
+                <p>Move from local prototype to Vercel or a review workspace when the surface is ready.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band prototype-band" id="prototype">
+          <div class="container split-section">
+            <div class="section-heading compact" data-reveal>
+              <span class="eyebrow">Interactive prototype</span>
+              <h2>The design workflow is visible before engineering cost piles up.</h2>
+              <p>
+                Product Design keeps the process grounded: no visual target, no build. LazyCodex
+                frontend then turns that chosen direction into a design-system-backed surface.
+              </p>
+            </div>
+            <div class="timeline" data-reveal>
+              <div class="timeline-line"></div>
+              <article>
+                <span>Get context</span>
+                <strong>Confirm product, audience, reference, and interaction depth.</strong>
+              </article>
+              <article>
+                <span>Ideate</span>
+                <strong>Compare three directions instead of committing to the first draft.</strong>
+              </article>
+              <article>
+                <span>Build</span>
+                <strong>Translate the selected target into responsive frontend code.</strong>
+              </article>
+              <article>
+                <span>QA</span>
+                <strong>Capture the rendered result and compare against the source target.</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-band quality-band" id="quality">
+          <div class="container quality-grid">
+            <div class="quality-copy" data-reveal>
+              <span class="eyebrow">Quality system</span>
+              <h2>Design is not separate from the build gate.</h2>
+              <p>
+                The frontend skill adds a design-system contract, real-browser QA, responsive
+                screenshots, interaction states, accessibility checks, and performance discipline.
+              </p>
+            </div>
+            <div class="qa-board" data-reveal>
+              <div class="qa-row passed">
+                <span>DESIGN.md</span>
+                <strong>source of truth</strong>
+              </div>
+              <div class="qa-row passed">
+                <span>Visual QA</span>
+                <strong>375 / 768 / 1280</strong>
+              </div>
+              <div class="qa-row active">
+                <span>Interactions</span>
+                <strong>hover, focus, active</strong>
+              </div>
+              <div class="qa-row">
+                <span>Deploy</span>
+                <strong>Vercel production</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="closing" id="deploy" data-reveal>
+          <div class="container closing-inner">
+            <span class="eyebrow">Build, review, ship</span>
+            <h2>Use Codex as a product design studio, not just a code writer.</h2>
+            <p>
+              Start from a messy idea, a URL, a screenshot, or a design file. End with a
+              reviewable prototype and evidence-backed handoff.
+            </p>
+            <a class="magnetic-cta magnetic-cta-dark" href="https://github.com/wjb127" rel="noreferrer">
+              <span>See the public repo</span>
+              <span class="cta-orb" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
